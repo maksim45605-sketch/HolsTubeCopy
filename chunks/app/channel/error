@@ -1,0 +1,84 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([[140], {
+    7623: function(e, t, n) {
+        Promise.resolve().then(n.bind(n, 3200))
+    },
+    7648: function(e, t, n) {
+        "use strict";
+        n.d(t, {
+            default: function() {
+                return s.a
+            }
+        });
+        var r = n(2972)
+          , s = n.n(r)
+    },
+    3200: function(e, t, n) {
+        "use strict";
+        n.r(t),
+        n.d(t, {
+            default: function() {
+                return l
+            }
+        });
+        var r = n(7437)
+          , s = n(2265)
+          , a = n(7648);
+        function l(e) {
+            let {error: t, reset: n} = e;
+            return (0,
+            s.useEffect)( () => {
+                console.error("Channel page error:", t)
+            }
+            , [t]),
+            (0,
+            r.jsx)("div", {
+                className: "min-h-[60vh] flex flex-col items-center justify-center px-4",
+                children: (0,
+                r.jsxs)("div", {
+                    className: "text-center max-w-md",
+                    children: [(0,
+                    r.jsx)("svg", {
+                        xmlns: "http://www.w3.org/2000/svg",
+                        viewBox: "0 0 24 24",
+                        fill: "currentColor",
+                        className: "w-16 h-16 mx-auto text-text-secondary mb-4",
+                        children: (0,
+                        r.jsx)("path", {
+                            fillRule: "evenodd",
+                            d: "M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z",
+                            clipRule: "evenodd"
+                        })
+                    }), (0,
+                    r.jsx)("h1", {
+                        className: "text-2xl font-bold text-text-primary mb-2",
+                        children: "Failed to load channel"
+                    }), (0,
+                    r.jsx)("p", {
+                        className: "text-text-secondary mb-6",
+                        children: "We couldn't load this channel. It may not exist or there was a network error."
+                    }), (0,
+                    r.jsxs)("div", {
+                        className: "flex flex-col sm:flex-row gap-3 justify-center",
+                        children: [(0,
+                        r.jsx)("button", {
+                            onClick: n,
+                            className: "px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-colors",
+                            children: "Try again"
+                        }), (0,
+                        r.jsx)(a.default, {
+                            href: "/",
+                            className: "px-6 py-3 bg-surface-light text-text-primary font-medium rounded-lg hover:bg-surface transition-colors",
+                            children: "Go back home"
+                        })]
+                    })]
+                })
+            })
+        }
+    }
+}, function(e) {
+    e.O(0, [972, 971, 117, 744], function() {
+        return e(e.s = 7623)
+    }),
+    _N_E = e.O()
+}
+]);
